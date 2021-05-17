@@ -11,16 +11,22 @@ public class MainApp {
     int a = sc.nextInt();
     System.out.print("nhập b = ");
     int b = sc.nextInt();
-    int tong = a+b;
-    int hieu = a-b;
-    int tich = a*b;
-    int thuong = a/b;
-    System.out.print("tổng = "+tong+"\n"+"hiệu = "+hieu+"\n"+"tích = "+tich+"\n"+"thương = "+thuong+"\n");
+    int tong = a + b;
+    System.out.println(b + " + " + a + " = " + tong);
+     
+    int hieu = a - b;
+    System.out.println(a + " - " + b + " = " + hieu);
+     
+    int tich = a * b;
+    System.out.println(a + " * " + b + " = " + tich);
+     
+    float thuong = a / b;
+    System.out.println(a + " / " + b + " = " + thuong); 
     
-    {boolean c = a > b;System.out.println(c);}
-	{boolean c = a < b;System.out.println(c);}
-	{boolean c = a >= b;System.out.println(c);}
-	{boolean c = a <= b;System.out.println(c);}
+    System.out.println("Kết quả so sánh lớn hơn 2 số : " + a + " và " + b + " là " + (a > b));
+    System.out.println("Kết quả so sánh nhỏ hơn 2 số : " + a + " và " + b + " là " + (a < b));
+    System.out.println("Kết quả so sánh lớn hơn hoặc bằng 2 số : " + a + " và " + b + " là " + (a >= b));
+    System.out.println("Kết quả so sánh nhỏ hơn hoặc bằng 2 số : " + a + " và " + b + " là " + (a <= b));
     }
     
 	}
